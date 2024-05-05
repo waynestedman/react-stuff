@@ -1,0 +1,52 @@
+:root {
+/* variables/tokens */
+  --wall-color-primary: #005E4F; /* tier 2 - primary emerald */
+  --wall-color-almond: #FAEBE5; /* tier 2 - almond (light brown) */
+  --wall-color-wood: #5D2813; /* tier 2 - wood brown (medium brown) */
+  --wall-color-dark-wood: #2F150A; /* tier 2 - dark wood brown (dark brown) */
+  --wall-color-primay-gray: #7C7C7C; /* tier 2 - primary gray */
+  --wall-type-paragraph: 400 16px/1.5 Bitter;
+  --wall-type-caption: 300 14px/1.5 Bitter;
+  --wall-type-eyebrow: 400 14px/1.5 Raleway;
+  --wall-type-heading1: 700 72px/1.5 Raleway;
+  --wall-type-heading2: 700 54px/1.5 Raleway;
+  --wall-type-heading3: 700 40px/1.5 Raleway;
+  --wall-type-heading4: 500 30px/1.5 Raleway;
+  --wall-type-heading5: 500 22px/1.5 Raleway;
+  --wall-type-heading6: 500 16px/1.5 Raleway;
+}
+
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font: var(--wall-type-paragraph);
+}
+h1 {
+  font: var(--wall-type-heading1);
+  text-align: center;
+  color: var(--wall-color-primary);
+}
+h2 {
+  font: var(--wall-type-heading2);
+}
+h3 {
+  font: var(--wall-type-heading3);
+}
+h4 {
+  font: var(--wall-type-heading4);
+}
+h5 {
+  font: var(--wall-type-heading5);
+}
+h6 {
+  font: var(--wall-type-heading6);
+}
+
+/**********************************/
